@@ -1,1 +1,1 @@
-SELECT * FROM Students WHERE City REGEXP '.a';
+SELECT * FROM Students WHERE City REGEXP '.[a].*$';

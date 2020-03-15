@@ -1,1 +1,1 @@
-SELECT * FROM Students WHERE Country IN ('Sint Maarten | Haiti');
+SELECT * FROM Students WHERE ('Sint Maarten', 'Haiti') IN Country;
